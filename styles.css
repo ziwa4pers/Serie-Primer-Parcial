@@ -1,0 +1,68 @@
+/* styles.css */
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100%;
+    min-width: 100%;
+    background-color: #0000FF; /* Azul claro para el fondo general */
+}
+
+.header {
+    background-color: #00FF00; /* Verde grande */
+    height: 100px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.inner-header {
+    background-color: #BFFF00; /* Verde limón */
+    height: 50px;
+    width: 1300px; /* Ancho ajustable */
+    margin-top: 40px;
+}
+
+.main-content {
+    background-color: #0000FF; /* Azul */
+    height: 420px;
+    margin: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.content-box {
+    background-color: #83f3d8; /* Blanco para el contenido */
+    height: 400px; /* Igual a la altura de .sidebar */
+    width: 1000px; 
+    float: left;
+    padding: 1px;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+.sidebar {
+    background-color: #66FFFF; /* Azul claro más fuerte */
+    height: 400px; /* Altura fija */
+    width: 250px; /* Ancho fijo para el panel lateral */
+    float: right;
+    margin: 5px;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+.footer {
+    background-color: #FF9933; /* Naranja */
+    height: 100px;
+    clear: both; /* Limpia el float para el footer */
+    width: 100%;
+    position: relative;
+}
+
+
+
+
+
+
